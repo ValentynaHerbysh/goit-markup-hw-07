@@ -1,0 +1,81 @@
+ @media screen and (min-width: 1200px) {
+.container {
+    max-width: 1200px;
+}
+.header-address {
+    display: flex;
+   gap: 40px;
+}
+.header-mail {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+}
+.hero-title {
+    margin-bottom: 48px;
+}
+.about {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.about-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+.about-item-block {
+    display: flex;
+}
+.about-subtitle {
+    font-weight: var(--subtitle-font-weight);
+    font-size: 20px;
+    line-height: 1.2;
+}
+.about-text {
+    font-weight: var(--main-text-font-weight);
+}
+.services {
+    display: block;
+}
+.team-item {
+     width: calc((100% - 72px) / 4);
+}
+.container.container-mini {
+    max-width: 1160px;
+}
+.container.customers-container-mini {
+    max-width: 1160px;
+}
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.customers-list {
+    gap: 24px;
+}
+.customers-item {
+    width: calc((100% - 120px) / 6);}
+.footer {
+    padding: 100px 0;
+}
+.footer-info {
+    margin-right: 120px;
+    margin-bottom: 0;
+}
+.footer-logo {
+    margin-bottom: 0;
+}
+.footer-social {
+    margin-right: 80px;
+    margin-bottom: 0;
+}
+}

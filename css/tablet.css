@@ -1,0 +1,116 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+    .header-list {
+        display: flex;
+    }
+    .header-address {
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 10px;
+    }
+    .header-mail {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    display: block;
+    margin-bottom: 4px;
+    }
+    .header-tel {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    display: block;
+    }
+    .header-menu-btn {
+        display: none;
+        }
+    .hero {
+        background-image: var(--gra), url(../images/hero-bg.jpg);
+        padding-top: 112px;
+        padding-bottom: 108px;
+    }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero {
+                background-image: var(--gra), url(../images/hero-bg-2x.jpg);
+            }
+        }
+    .hero-title {
+        margin-bottom: 40px;
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
+    }
+    .about-list {
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+    .about-item {
+        width: calc((100% - 24px) / 2);
+    }
+    .team-list {
+        column-gap: 24px;
+        row-gap: 56px;
+    }
+
+    .team-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .container.container-mini {
+    max-width: 584px;
+    }
+    .container.customers-container-mini {
+        max-width: 584px;
+    }
+    
+    .customers-list {
+        column-gap: 16px;
+    }
+    .customers-item {
+        width: calc((100% - 48px) / 3);
+    }
+    .footer {
+        display: flex;
+        
+    }
+    .footer-container {
+        display: flex;
+    }
+    .footer-tablet {
+        display: flex;
+        gap: 24px;
+    }
+    .footer-logo {
+        display: block;
+
+    }
+        
+    .footer-social-text {
+        text-align: justify;
+    }
+    .footer-subscribe {
+        display: block;
+        }
+    .footer-subsribe-text {
+        text-align: justify;
+    }
+    .subscribe-form {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .subsribe-input {
+        width: 264px;
+        margin-bottom: 0;
+    }
+    .subscribe-btn {
+        gap: 16px;
+        margin-left: 24px;
+    }
+        
+}
